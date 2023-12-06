@@ -10,7 +10,7 @@ int main()
    printf("A tabuada do numero %d é: \n",num1);
    
   int pos = 0;
-  int resultado[9]; 
+  int resultado[11]; 
   resultado [pos] = 0;
  
 
@@ -27,6 +27,11 @@ do{
    pos++;
    resultado [pos] = 0;
 }while ( num1 <= 10);
+   
+    int soma = resultado[0]+resultado[1]+resultado[2]+resultado[3]+resultado[4]+ resultado[5]+resultado[6] + resultado[7] + resultado[8] + resultado[9];
+  
+  
+   
    printf("%d \n", resultado[0]);
    printf("%d \n", resultado[1]);
    printf("%d \n", resultado[2]);
@@ -37,10 +42,7 @@ do{
    printf("%d \n", resultado[7]);
    printf("%d \n", resultado[8]);
    printf("%d \n", resultado[9]);
-    int soma = resultado[0]+resultado[1]+resultado[2]+resultado[3]+resultado[4]+ resultado[5]+resultado[6] + resultado[7] + resultado[8] + resultado[9];
-  
-  
-   printf(" teste %d  \n", soma);
+   printf(" total %d  \n", soma);
   
  
 
